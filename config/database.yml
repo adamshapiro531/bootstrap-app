@@ -1,0 +1,23 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: bootstrap-app_development
+  pool: 5
+  username: adam
+  password: mookie77
+
+test:
+  adapter: postgresql
+  encoding: unicode
+  database: bootstrap-app_test
+  pool: 5
+  username: adam
+  password: mookie77
+
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: bootstrap-app_production
+  pool: 5
+  username: adam
+  password: mookie77
